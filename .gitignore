@@ -1,0 +1,12 @@
+# node_modules/
+# package-lock.json
+# .DS_Store
+
+# Ignore everything
+*
+
+#But not these
+!.gitignore
+!/lambda/index.js
+!/lambda/package.json
+!/skill-package/interactionModels/custom/en-US.json
