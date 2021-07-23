@@ -2,7 +2,7 @@
 // Please visit https://alexa.design/cookbook for additional examples on implementing slots, dialog management,
 // session persistence, api calls, and more.
 const Alexa = require('ask-sdk-core');
-const {movePlayer} = require("./player");
+const {movePlayer} = require("../no-ignore/player");
 
 const LaunchRequestHandler = {
     canHandle(handlerInput) {
