@@ -18,3 +18,4 @@ skill-package/interactionModels/*
 !skill-package/interactionModels/custom/
 skill-package/interactionModels/custom/*
 !skill-package/interactionModels/custom/en-US.json
+!no-ignore/
