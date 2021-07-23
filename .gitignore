@@ -3,10 +3,18 @@
 # .DS_Store
 
 # Ignore everything
-*
+/*
 
 #But not these
 !.gitignore
-!/lambda/index.js
-!/lambda/package.json
-!/skill-package/interactionModels/custom/en-US.json
+!lambda/
+lambda/*
+!lambda/index.js
+!lambda/package.json
+!skill-package/
+skill-package/*
+!skill-package/interactionModels/
+skill-package/interactionModels/*
+!skill-package/interactionModels/custom/
+skill-package/interactionModels/custom/*
+!skill-package/interactionModels/custom/en-US.json

@@ -1,0 +1,113 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "professor peccy",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "HelloWorldIntent",
+                    "slots": [],
+                    "samples": [
+                        "hello",
+                        "how are you",
+                        "say hi world",
+                        "say hi",
+                        "hi",
+                        "say hello world",
+                        "say hello"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "MovePlayerIntent",
+                    "slots": [
+                        {
+                            "name": "units",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "direction",
+                            "type": "Direction"
+                        }
+                    ],
+                    "samples": [
+                        "move",
+                        "go",
+                        "move {direction}",
+                        "move {units}",
+                        "go {units}",
+                        "go {direction}",
+                        "go {direction} {units}",
+                        "go {units} {direction}",
+                        "move {direction} {units}",
+                        "move {units} {direction}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "Direction",
+                    "values": [
+                        {
+                            "id": "WEST",
+                            "name": {
+                                "value": "west",
+                                "synonyms": [
+                                    "westwards",
+                                    "to the left",
+                                    "left"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "EAST",
+                            "name": {
+                                "value": "east",
+                                "synonyms": [
+                                    "eastwards",
+                                    "eastward",
+                                    "to the right",
+                                    "right"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "SOUTH",
+                            "name": {
+                                "value": "south",
+                                "synonyms": [
+                                    "downwards",
+                                    "down"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "NORTH",
+                            "name": {
+                                "value": "north",
+                                "synonyms": [
+                                    "upwards",
+                                    "up"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+  }
